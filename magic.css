@@ -1,0 +1,11 @@
+/*
+Make Pretty? Fuck yes!
+Author: Marco Sousa @h1brd
+*/
+
+/* Typography */
+h1,h1,p,li,a { font-family: 'Source Serif Pro', Arial, serif;}
+h1 { font-weight: 600; }
+
+/* Structure */
+body {width: auto; margin: 120px;}
