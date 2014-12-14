@@ -1,11 +1,14 @@
 /*
-Make Pretty? Fuck yes!
 Author: Marco Sousa @h1brd
 */
 
 /* Typography */
-h1,h1,p,li,a { font-family: 'Source Serif Pro', Arial, serif;}
-h1 { font-weight: 600; }
+h1,h1,p,li,a { font-family: 'Source Serif Pro', Arial, serif; color: #666;font-size: 22px;}
+p { line-height: 32px;margin-bottom: 20px;}
+h1 { font-weight: 600; color: #222; margin-bottom: 40px; font-size: 32px;}
+a {color: #222; text-decoration: none; border-bottom: 1px solid #222;}
+a:hover {color: #7E879C; border-bottom: 1px solid #7E879C;}
 
 /* Structure */
 body {width: auto; margin: 120px;}
+footer { margin-top: 60px;}
