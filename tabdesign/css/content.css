@@ -1,0 +1,137 @@
+section {
+  padding : 66px 0 80px 0;
+}
+
+section img {
+  max-width : 100%;
+}
+
+section:not(:last-child) {
+  border-bottom : 1px solid #E6E6E6;
+}
+
+.content-inner {
+  max-width  : 688px;
+  margin : auto;
+  padding : 0 24px;
+}
+
+section header {
+  margin-bottom : 22px;
+}
+
+section h4 {
+  margin      : 28px 0 13px 0;
+  color       : #888;
+  font-family : 'apercubold';
+}
+
+.copy ul {
+  font-size   : 24px;
+  line-height : 32px;
+}
+
+.copy a {
+  color : #ff4400;
+}
+
+.copy p:not(:first-child) {
+  margin : 30px 0 0 0;
+}
+
+.copy ul {
+  margin-left : 37px;
+}
+
+.files {
+  border-top : 1px solid #e6e6e6;
+}
+
+.file {
+  overflow      : hidden;
+  border-bottom : 1px solid #e6e6e6;
+  display       : block;
+  padding       : 18px 0 20px 0;
+}
+
+.page {
+  width : 45px;
+}
+
+.file-icon {
+  width       : 24px;
+  height      : 32px;
+  background  : url(../img/icon-file.gif);
+  text-align  : center;
+  font-size   : 7px;
+  font-family : 'apercubold';
+  padding-top : 19px;
+}
+
+.browser-icon {
+  width       : 24px;
+  height      : 32px;
+  background  : url(../img/icon-browser.gif);
+}
+
+.pdf {
+  color : #df1c3c;
+}
+
+.psd {
+  color : #206ded;
+}
+
+.png {
+  color : #4fa07f;
+}
+
+.key {
+  color : #ff8400;
+}
+
+.pages {
+  color : #a742cc;
+}
+
+.zip {
+  color       : #444;
+  background  : url(../img/icon-zip.gif);
+}
+
+.icon {
+  margin-top : 2px;
+}
+
+.download {
+  margin-top : 6px;
+}
+
+.file h3 {
+  color         : #444;
+  margin-bottom : 2px;
+  font-family   : 'apercuregular';
+}
+
+.file-type {
+  font-family : 'apercubold';
+}
+
+.file p {
+  font-size   : 11px;
+  color       : #888;
+  line-height : initial;
+}
+
+.file .dot {
+  margin : 12px 20px 0 0;
+}
+
+.dot {
+  width  : 12px;
+  height : 12px;
+  background : red;
+  display: inline-block;
+  border-radius: 12px;
+  margin-right: 8px;
+}

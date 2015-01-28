@@ -1,0 +1,24 @@
+body {
+  background  : #fafafa;
+  color       : #444;
+  margin-left : 241px;
+}
+
+.float-left {
+  float : left;
+}
+
+.float-right {
+  float : right;
+}
+
+.overflowHidden {
+  overflow: hidden;
+}
+
+hr {
+  background : #ebebeb;
+  height     : 1px;
+  border     : 0;
+  margin     : 0;
+}

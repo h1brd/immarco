@@ -1,0 +1,41 @@
+body {
+  font-size   : 12px;
+  font-family : 'apercuregular';
+}
+
+h1, h2, h3 {
+  font-family : 'apercubold';
+}
+
+h1, h2, h3, h4 {
+  font-weight : normal;
+  margin      : 0;
+}
+
+h1 {
+  font-size     : 66px;
+  margin-bottom : 3px;
+}
+
+h2 {
+  font-size     : 24px;
+  margin-bottom : 34px;
+}
+
+h3 {
+  font-size : 16px;
+}
+
+h4 {
+  font-size : 12px;
+}
+
+a {
+  color : #888;
+}
+
+p {
+  margin      : 0;
+  font-size   : 22px;
+  line-height : 32px;
+}

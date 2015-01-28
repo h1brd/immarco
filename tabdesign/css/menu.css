@@ -1,0 +1,55 @@
+#menu {
+  background    : #FFF;
+  width         : 240px;
+  border-right  : 1px solid #E6E6E6;
+  position      : fixed;
+  top           : 0;
+  height        : 100%;
+  left          : 0;
+}
+
+#menu h3 {
+  padding : 17px 24px 13px 24px;
+}
+
+#menu ul {
+  overflow : hidden;
+  margin   : 0 24px 5px 24px;
+}
+
+#menu li {
+  margin-bottom : 13px;
+  font-size     : 16px;
+}
+
+#menu .active {
+  color       : #ff4400;
+  font-family : 'apercubold';
+}
+
+.scroll {
+  overflow : auto;
+}
+
+#menu .scroll h3 {
+  background     : url(../img/right-arrow.gif) no-repeat 207px 24px;
+  padding-bottom : 20px;
+  cursor         : pointer;
+}
+
+#menu .scroll h3.open {
+  background-image : url(../img/down-arrow.gif);
+}
+
+.scroll h3 {
+  border-top : 1px solid #ebebeb;
+}
+
+#menu .scroll ul {
+  display    : none;
+  margin-top : -8px;
+}
+
+#menu .scroll ul.open {
+  display : block;
+}
