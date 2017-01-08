@@ -13,13 +13,13 @@ a { text-decoration: none;  color: #776fa5; font-size: inherit;}
 a:hover { color: #fd90a5;border-bottom: 1px solid #fd90a5;}
 #footer p {font-size: 16px;}
 #job-title {color: #fce3ca;margin-bottom: 60pt;}
-#socials {font-size: 16px; margin-bottom: 60pt;}
+#socials {display: block; font-size: 16px; margin-bottom: 20pt;}
 
 /* Structure */
 #header {
   background-color: #0a0f24;
   margin: 0;
-  padding: 16% 10% 3% 10%;
+  padding: 10% 10% 3% 10%;
   border: 0;
   font-size: 100%;
   font: inherit;
@@ -28,7 +28,8 @@ a:hover { color: #fd90a5;border-bottom: 1px solid #fd90a5;}
   position: relative;
 }
 body {width: auto; background-color:#fff;}
-#main {padding: 0 10%; margin-top: 60pt; max-width: 960px;}
-ul { display:inline; padding:0; margin:0;}
-li { display:inline-block; padding:none; margin:0 8pt 0 0;}
-footer { margin-top: 60px;padding: 0 10%;}
+#main {padding: 0 10%; margin-top: 40pt; max-width: 960px;}
+#design-examples li div img {width: 50%;display:block;}
+ul, ol {display:inline; padding:0; margin:0;}
+li {display:inline-block; padding:none; margin:0 8pt 0 0;}
+footer {margin-top: 60px;padding: 0 10%;}
