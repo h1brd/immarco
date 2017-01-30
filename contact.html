@@ -62,101 +62,81 @@
 
 <div class="clear"></div>
 
-<!--Content-->
 
-<div class="content" id="ajax-content">
+  <!--Content-->
+
+  <div class="content" id="ajax-content">
+
+        <div class="text-intro">
+
+          <h1>Contact</h1>
+          <p>To get in touch please use the contact form.</p>
+
+          <form method="post" action="?" data-jkit="[form:validateonly=true]">
+
+          <div class="contact-one">
+            <p>
+              <label for="miniusername">Name:</label><br />
+              <input name="miniusername" id="miniusername" data-jkit="[validate:required=true;min=3;max=10;error=Please enter your username (3-10 characters)]">
+            </p>
+          </div>
+
+          <div class="contact-two">
+            <p>
+              <label for="miniemail">E-mail:</label><br />
+              <input name="miniemail" id="miniemail" data-jkit="[validate:required=true;strength=50;error=Please write your email]">
+            </p>
+          </div>
+
+          <div class="contact-three">
+            <p>
+              <label>Message:</label><br />
+              <textarea id="message" name="message"></textarea><br/><br/>
+
+              <input class="button-submit" name="send" type="submit" value="SUBMIT" />
+            </p>
+          </div>
+
+            <p>
+            </p>
+          </form>
 
 
-      <div class="text-intro" id="site-type">
-
-        <h1 class="typewrite"><span>Design Research</span></h1>
-        <p>Experienced product designer with over 8 years in the industry. Focused on creating mobile experiences.</p>
-
-      </div>
-
-
-<!--Portfolio grid-->
-
-<ul class="portfolio-grid">
-
-
-  <li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
-    <img src="img/portfolio/1.jpg">
-      <a href="http://www.theappbusiness.com/work/yolt">
-        <div class="grid-hover">
-          <h1>Yolt</h1>
-          <p>ING</p>
         </div>
-      </a>
-  </li>
 
-  <li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
-    <img src="img/portfolio/tfl.jpg">
-      <a class="ajax-link" href="single.html">
-        <div class="grid-hover">
-          <h1>Mobile Programme</h1>
-          <p>Transport for London</p>
-        </div>
-      </a>
-  </li>
+	<br/><br/><br/><br/><br/><br/><br/><br/>
+  </div>
 
-  <li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
-    <img src="img/portfolio/3.jpg">
-      <a class="ajax-link" href="http://www.visitlondon.com/traveller-information/getting-around-london/london-maps-and-guides/apps/london-official-city-guide-app#s88BxJ62LK8O6cfl.97">
-        <div class="grid-hover">
-          <h1>VisitLondon App</h1>
-          <p>London and Partners</p>
-        </div>
-      </a>
-  </li>
 
-  <li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
-    <img src="img/portfolio/4.jpg">
-      <a class="ajax-link" href="http://www.pocket-lint.com/news/133662-ford-go-drive-car-sharing-super-affordable-motor-equivalent-of-boris-bikes-hands-on">
-        <div class="grid-hover">
-          <h1>Go!Drive</h1>
-          <p>Ford</p>
-        </div>
-      </a>
-  </li>
 
-  <li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
-    <img src="img/portfolio/goals.jpg">
-      <a class="ajax-link" href="http://www.theappbusiness.com/work/sun-goals">
-        <div class="grid-hover">
-          <h1>Sun Goals</h1>
-          <p>News UK</p>
-        </div>
-      </a>
-  </li>
 
-  <li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
-    <img src="img/portfolio/2.jpg">
-      <a class="ajax-link" href="single.html">
-        <div class="grid-hover">
-          <h1>In-store experience</h1>
-          <p>Microsoft</p>
-        </div>
-      </a>
-  </li>
+  <!--Home Sidebar-->
 
-</ul>
+<div id="ajax-sidebar"></div>
 
-</div>
 
 
 <!--Footer-->
 
-<footer id="footer-box">
+<footer>
 
   <div class="footer-margin">
+    <div class="social-footer">
 
-  <div class="copyright" id="footer-left">Copyright © 2017 Marco Sousa. All Rights Reserved.</div>
+      <a href="https://twitter.com/h1brd"><i class="fa fa-twitter"></i></a>
+      <a href="https://dribbble.com/h1brd"><i class="fa fa-dribbble"></i></a>
+      <a href="https://www.instagram.com/h1brd/"><i class="fa fa-instagram"></i></a>
+
+    </div>
+    <div class="copyright">Copyright © 2017 Marco Sousa. All Rights Reserved.</div>
+
+
 
   </div>
 
 
 </footer>
+
 
 
 <!--Scripts-->
@@ -170,9 +150,14 @@
   <script src="js/imagesloaded.pkgd.min.js" type="text/javascript"></script>
   <script src="js/jquery.jkit.1.2.16.min.js"></script>
 
-
-
   <script src="js/script.js" type="text/javascript"></script>
+
+	<script>
+    $('#button, #buttons').on('click', function() {
+      $( ".opacity-nav" ).fadeToggle( "slow", "linear" );
+    // Animation complete.
+    });
+  </script>
 
 
 </body>
