@@ -7,12 +7,12 @@
 /* Typography */
 h1,h1,h2,p,a { font-family: 'Raleway', Arial, serif; color: #0a0f24; font-size: 22px;}
 p { line-height: 32px;margin-bottom: 20px;font-weight: 300;}
-h1 { font-weight: 700; margin-bottom: 0px; font-size: 44pt;color: #FCE3CA;}
+h1 { font-weight: 700; margin-bottom: 0px; font-size: 44pt;color: #fff;}
 h2,h3 { margin-top: 40px;color: #FCE3CA;}
 a { text-decoration: none;  color: #776fa5; font-size: inherit;}
 a:hover { color: #fd90a5;border-bottom: 1px solid #fd90a5;}
 #footer p {font-size: 16px;}
-#job-title {color: #fce3ca;margin-bottom: 60pt;}
+#job-title {color: #fff;margin-bottom: 60pt;}
 #socials {display: block; font-size: 16px; margin-bottom: 20pt;}
 
 /* Structure */
