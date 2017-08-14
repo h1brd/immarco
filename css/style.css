@@ -102,4 +102,7 @@ Main Content
       min-height: 400px;
       float: left;
   }
+  .content{
+    margin: 60pt 40pt 60pt;
+  }
 }
