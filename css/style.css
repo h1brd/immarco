@@ -34,13 +34,10 @@ a{
   text-decoration:none;
   color: #6e38c5;
   font-weight: bold;
-  padding: 8pt 2pt;
 }
 
 a:hover {
   text-decoration: underline;
-  text-decoration-style: wavy;
-  padding: 8pt 2pt;
 }
 
 h1{
@@ -51,7 +48,7 @@ h1{
 }
 
 h2{
-  font-size: 16pt;
+  font-size: 14pt;
   margin-top: 4pt;
   color: #444;
 }
