@@ -24,44 +24,42 @@ body{
 
 p{
   font-family: 'Work Sans', sans-serif;
-  font-size: 12pt;
+  font-size: 11pt;
   line-height: 18pt;
   margin-top: 20pt;
-  color: #777;
+  color: #444;
 }
 
 a{
   text-decoration:none;
-  -webkit-transition: all 0.2s ease-in;
-	-moz-transition: all 0.2s ease-in;
-	-ms-transition: all 0.2s ease-in;
-	-o-transition: all 0.2s ease-in;
-	transition: all 0.2s ease-in;
-  color: #405A93;
+  color: #6e38c5;
   font-weight: bold;
+  padding: 8pt 2pt;
 }
 
-a:focus {
+a:hover {
   text-decoration: underline;
+  text-decoration-style: wavy;
+  padding: 8pt 2pt;
 }
 
 h1{
   font-family: 'Mada', sans-serif;
-  font-size: 16pt;
-  font-weight: 700;
+  font-size: 32pt;
+  font-weight: 600;
   letter-spacing: .011em;
 }
 
 h2{
-  font-size: 12pt;
+  font-size: 16pt;
   margin-top: 4pt;
   color: #444;
 }
 
 h3{
   font-size: 12pt;
-  margin-top: 4pt;
-  color: #444;
+  margin-top: 6pt;
+  color: #666;
 }
 ul li{
   margin-top: 6pt;
